@@ -9,6 +9,10 @@
       content="This is my solution to the news homepage challenge on Frontend Mentor"
     />
 
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css//reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
     <title>News homepage</title>
 
     <script defer src="./js/script.js"></script>
@@ -17,31 +21,37 @@
     <div class="container">
       <header>
         <a>
-          <img src="./assets/logo.svg" alt="Logo" />
+          <!-- <img src="./assets/logo.svg" alt="Logo" /> -->
         </a>
 
         <button>
-          <img src="./assets/hamburger.svg" alt="" />
+          <!-- <img src="./assets/hamburger.svg" alt="" /> -->
         </button>
 
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">New</a>
-            </li>
-            <li>
-              <a href="#">Popular</a>
-            </li>
-            <li>
-              <a href="#">Trending</a>
-            </li>
-            <li>
-              <a href="#">Categories</a>
-            </li>
-          </ul>
+        <nav class="main-nav">
+          <div class="main-nav-wrapper">
+            <button class="main-nav-button">
+              <img src="./assets/icon-menu-close.svg" />
+            </button>
+
+            <ul class="main-nav-list">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">New</a>
+              </li>
+              <li>
+                <a href="#">Popular</a>
+              </li>
+              <li>
+                <a href="#">Trending</a>
+              </li>
+              <li>
+                <a href="#">Categories</a>
+              </li>
+            </ul>
+          </div>
         </nav>
       </header>
 
@@ -52,7 +62,7 @@
           itemtype="https://schema.org/NewsArticle"
         >
           <figure>
-            <img src="./assets/image-web-3-mobile.jpg" alt="Web 3.0" />
+            <!-- <img src="./assets/image-web-3-mobile.jpg" alt="Web 3.0" /> -->
           </figure>
 
           <h1 itemprop="name">The Bright Future of Web 3.0?</h1>
@@ -105,7 +115,7 @@
           <article itemscope itemtype="https://schema.org/NewsArticle">
             <a href="#" itemprop="url">
               <figure>
-                <img src="./assets/image-retro-pcs.jpg" />
+                <!-- <img src="./assets/image-retro-pcs.jpg" /> -->
               </figure>
 
               <div>
@@ -120,7 +130,7 @@
           <article itemscope itemtype="https://schema.org/NewsArticle">
             <a href="#" itemprop="url">
               <figure>
-                <img src="./assets/image-top-laptops.jpg" />
+                <!-- <img src="./assets/image-top-laptops.jpg" /> -->
               </figure>
 
               <div>
@@ -135,7 +145,7 @@
           <article itemscope itemtype="https://schema.org/NewsArticle">
             <a href="#" itemprop="url">
               <figure>
-                <img src="./assets//image-gaming-growth.jpg" />
+                <!-- <img src="./assets//image-gaming-growth.jpg" /> -->
               </figure>
 
               <div>

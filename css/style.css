@@ -1,0 +1,51 @@
+/* Header styles [#1] */
+header {
+  position: relative;
+}
+
+/* Mobile menu navigation */
+.main-nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+
+  background-color: var(--off-white);
+  width: 75vw;
+  height: 100vh;
+
+  padding: 2.6rem;
+}
+
+.main-nav-wrapper {
+  max-width: 375px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.main-nav-button {
+  align-self: flex-end;
+
+  flex-grow: 0;
+  line-height: 0;
+}
+
+.main-nav-button img {
+  width: 3.2rem;
+  height: 3.2rem;
+}
+
+.main-nav .main-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.main-nav-list a:link,
+.main-nav-list a:visited {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+/* =========================== */
