@@ -32,9 +32,6 @@ a:visited {
 
 button {
   border: none;
+  cursor: pointer;
   background-color: transparent;
-}
-
-img {
-  width: 100%;
 }

@@ -1,24 +1,50 @@
 /* Header styles [#1] */
 header {
   position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 1rem;
+}
+
+.header-button {
+  line-height: 0;
+}
+
+.header-logo-img {
+  width: 4rem;
+  height: 2.4rem;
+}
+
+.header-burger-img {
+  width: 2.6rem;
+  height: 2.6rem;
 }
 
 /* Mobile menu navigation */
+
 .main-nav {
   position: absolute;
   top: 0;
   right: 0;
   transform: translateX(100%);
+  transition: all 0.4s ease-in-out;
 
   background-color: var(--off-white);
   width: 75vw;
   height: 100vh;
 
-  padding: 2.6rem;
+  padding: 2.4rem 2.6rem;
+}
+
+.active-header-nav .main-nav {
+  transform: translateX(0);
 }
 
 .main-nav-wrapper {
-  max-width: 375px;
+  max-width: 330px;
 
   display: flex;
   flex-direction: column;
@@ -30,11 +56,6 @@ header {
 
   flex-grow: 0;
   line-height: 0;
-}
-
-.main-nav-button img {
-  width: 3.2rem;
-  height: 3.2rem;
 }
 
 .main-nav .main-nav-list {
