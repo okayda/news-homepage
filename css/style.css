@@ -38,6 +38,7 @@ header {
   padding: 2rem 0;
 }
 
+.header-logo-link,
 .header-button {
   line-height: 0;
 }
