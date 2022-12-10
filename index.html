@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="stylesheet" href="./css//reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
 
     <title>News homepage</title>
 
@@ -69,11 +70,13 @@
             itemtype="https://schema.org/NewsArticle"
           >
             <figure>
-              <img
-                src="./assets/image-web-3-mobile.jpg"
-                alt="Web 3.0"
-                class="main-article-img"
-              />
+              <picture>
+                <source
+                  srcset="./assets/image-web-3-desktop.jpg"
+                  media="(min-width: 700px)"
+                />
+                <img src="./assets/image-web-3-mobile.jpg" alt="Web 3.0" />
+              </picture>
             </figure>
 
             <h1 class="main-article-title" itemprop="name">
@@ -93,7 +96,7 @@
 
           <aside class="main-aside">
             <div class="main-aside-wrapper">
-              <h2 class="main-aside-title">New</h2>
+              <h2>New</h2>
 
               <article
                 itemscope

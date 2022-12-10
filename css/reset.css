@@ -50,6 +50,10 @@ h3 {
   color: var(--very-dark-blue);
 }
 
+h2 {
+  font-size: 3rem;
+}
+
 h3 {
   font-size: 1.85rem;
 }
