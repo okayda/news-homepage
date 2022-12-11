@@ -15,7 +15,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl)
-- Live Site URL: [Add live site URL here](https://app.netlify.com/sites/jhon-okayda-news-homepage/settings/general)
+- Live Site URL: [Add live site URL here](https://jhon-okayda-news-homepage.netlify.app/)
 
 ### Built with
 
